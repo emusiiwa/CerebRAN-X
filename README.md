@@ -14,10 +14,10 @@ The dataset comprises:
 
 Dynamic analysis generated an initial set of 1,356,584 unique behavioural features, including API calls, file system operations, registry modifications, and network activity. After a rigorous preprocessing phase to remove non-informative and zero-variance features, the final dataset used for modeling contains 5,110 distinct, predictive behavioural indicators. The features are one-hot encoded, with a value of '1' indicating the presence of a specific behaviour during execution and '0' indicating its absence.
 
+<img width="4125" height="3015" alt="full_family_distro" src="https://github.com/user-attachments/assets/8908576b-9404-48b2-b192-fb37255b3e01" />
 
 
 
-<img width="2402" height="2990" alt="Family Distribution" src="https://github.com/user-attachments/assets/f9702364-105b-4358-8b2b-5f6467250d0d" />
 
 
 # Disclaimer!
