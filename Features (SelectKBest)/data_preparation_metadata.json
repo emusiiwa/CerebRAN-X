@@ -1,0 +1,39 @@
+{
+  "dataset": {
+    "input_file": "dataset.csv",
+    "total_samples": 2415,
+    "total_features_original": 5110,
+    "total_features_selected": 500
+  },
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratified": true,
+    "train_samples": 1932,
+    "test_samples": 483
+  },
+  "class_distribution": {
+    "train": {
+      "benign": 998,
+      "ransomware": 934
+    },
+    "test": {
+      "benign": 250,
+      "ransomware": 233
+    }
+  },
+  "feature_selection": {
+    "method": "SelectKBest",
+    "score_function": "f_classif (ANOVA F-test)",
+    "k": 500,
+    "time_seconds": 0.13974332809448242
+  },
+  "files_created": [
+    "X_train.csv",
+    "X_test.csv",
+    "y_train.csv",
+    "y_test.csv",
+    "selected_features.json",
+    "data_preparation_metadata.json"
+  ]
+}
